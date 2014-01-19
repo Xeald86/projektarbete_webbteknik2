@@ -1,6 +1,6 @@
 CACHE MANIFEST
 Css/stilmall.css
-Script/script.js
+Script/script.min.js
 Script/jquery-1.10.2.min.js
 
 NETWORK:

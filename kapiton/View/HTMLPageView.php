@@ -17,7 +17,7 @@ class HTMLPageView {
 		     <meta http-equiv='content-type' content='text/html; charset=utf-8' />
 		     <link href='Css/Stilmall.css' rel='stylesheet' type='text/css' />
 		     <script type='text/javascript' src='Script/jquery-1.10.2.min.js'></script>
-		     <script type='text/javascript' src='Script/script.js'></script>
+		     <script type='text/javascript' src='Script/script.min.js'></script>
 		  </head> 
 		  <body>
 		  	<div id='appWrapper'>
