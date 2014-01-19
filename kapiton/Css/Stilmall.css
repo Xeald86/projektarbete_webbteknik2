@@ -1,0 +1,133 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: left;
+	color: #1a1a1a;
+	font: 12px sans-serif;
+	line-height: 21px;
+	font-weight: none;
+}
+
+fieldset {
+	border: 1px solid #888;
+	background: #d5d4ef;
+}
+
+input {
+	border: 1px solid #666;
+	padding: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+	#api {
+		width: 400px;
+		
+	}
+	
+	.buyOrderInput, .sellOrderInput {
+		width: 100px;
+	}
+
+#appWrapper {
+	width: 640px;
+	height: 100%;
+	margin: 0 auto;
+	border: 0px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	background: #fff;
+}
+
+	#appHeader {
+		height: 60px;
+		width: 100%;
+		position: relative;
+		background: -webkit-linear-gradient(#7776af, #fff);
+		background: -o-linear-gradient(#7776af, #fff);
+		background: -moz-linear-gradient(#7776af, #fff);
+		background: linear-gradient(#7776af, #fff);
+	}
+	
+		#logo {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			border: 0px;
+		}
+	
+	#appContainer {
+		padding: 10px;
+	}
+	
+		#content {
+			background: #c1c0e4;
+			border: 1px solid #000;
+			padding: 10px;
+			z-index: 4;
+			margin-top: -1px;
+			position: relative;
+		}
+	
+		#mainMenuWrapper {
+			width: 100%;
+			height: 40px;
+		}
+		
+			.menuOpt {
+				padding-left: 25px;
+				padding-right: 25px;
+				font: bold 26px Tahoma;
+				color: #787878;
+				border: 1px solid #fff;
+				border-bottom: 0px;
+				display: block;
+				float: left;
+				line-height: 40px;
+				cursor: pointer;
+				transition: 0.2s;
+				-webkit-transition: 0.2s; /* Safari */
+			}
+			
+			.selectedOpt {
+				border: 1px solid #000;
+				border-bottom: 0px;
+				color: #000;
+				background: #c1c0e4;
+				z-index: 5;
+				position: relative;
+				cursor: default;
+					-webkit-border-top-left-radius: 10px;
+					-webkit-border-top-right-radius: 10px;
+					-moz-border-radius-topleft: 10px;
+					-moz-border-radius-topright: 10px;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+			}
+
+
+#netStatus {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-weight: bold;
+}
+	.netOnline {
+		color: #166414;
+	}
+	.netOffline {
+		color: #ff0000;
+	}
+	
+
+.okMessage {
+	color: #185b26;
+	font-weight: bold;
+}
+
+.failMessage {
+	color: #913939;
+	font-weight: bold;
+}
+
+.clear { clear: both; }
